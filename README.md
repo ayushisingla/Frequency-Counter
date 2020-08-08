@@ -19,7 +19,10 @@ $ npm i node-fetch
 $ nodemon index.js
 
 
-**what used?
+
+
+
+**What used?
 
 1. NodeJS
 
@@ -28,6 +31,8 @@ $ nodemon index.js
 3. Nodemon ( for ease, not definitely required)
 
 4. body parser
+
+
 
 **Components are explained in the files itself.
 

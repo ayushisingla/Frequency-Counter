@@ -1,0 +1,27 @@
+{
+  "name": "frequency-couter",
+  "version": "1.0.0",
+  "description": "This application is built using NodeJS. In this application, one can enter a number N and in return he will got N top most words occurring in a file with frequency.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushisingla/Frequency-Counter.git"
+  },
+  "keywords": [
+    "word-frequency"
+  ],
+  "author": "Ayushi Singla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayushisingla/Frequency-Counter/issues"
+  },
+  "homepage": "https://github.com/ayushisingla/Frequency-Counter#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4"
+  }
+}

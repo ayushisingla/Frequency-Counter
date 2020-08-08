@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    .card {
+      margin: 40px auto;
+    }
+    .heading {
+      background-color: lightskyblue;
+    }
+    h4,
+    .form-data {
+      padding: 30px;
+    }
+  </style>
+  <body>
+    <div class="card" style="width: 18rem;">
+      <form action="/" method="POST">
+        <div class="form-group">
+          <div class="heading">
+            <h4>Enter a number:</h4>
+          </div>
+          <div class="form-data">
+            <input
+              type="number"
+              name="n"
+              class="form-control"
+              placeholder="Enter Number"
+              id="num"
+            />
+            <br />
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

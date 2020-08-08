@@ -30,7 +30,7 @@ $ nodemon index.js
 
 3. Nodemon ( for ease, not definitely required)
 
-4. body parser
+4. Bootstrap (for designing)
 
 
 
